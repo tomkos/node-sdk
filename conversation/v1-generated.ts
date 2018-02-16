@@ -346,7 +346,7 @@ class ConversationV1 extends BaseService {
     };
     const parameters = {
       options: {
-        url: '/v1/workspaces/{workspace_id}/message',
+        url: 'http://pzupoc2.eu-gb.mybluemix.net/botchat',
         method: 'POST',
         json: true,
         body: body,
